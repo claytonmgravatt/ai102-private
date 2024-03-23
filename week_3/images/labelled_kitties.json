@@ -1,0 +1,304 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "width": 4000,
+      "height": 3000,
+      "file_name": "20240310_161755.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240310_161755.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240310_161755.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977844Z"
+    },
+    {
+      "id": 2,
+      "width": 3000,
+      "height": 4000,
+      "file_name": "20240315_153212.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240315_153212.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240315_153212.jpg",
+      "date_captured": "2024-03-22T00:39:55.797775Z"
+    },
+    {
+      "id": 3,
+      "width": 3000,
+      "height": 4000,
+      "file_name": "20231227_094756.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20231227_094756.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20231227_094756.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977788Z"
+    },
+    {
+      "id": 4,
+      "width": 3000,
+      "height": 4000,
+      "file_name": "20240125_162453.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240125_162453.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240125_162453.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977892Z"
+    },
+    {
+      "id": 5,
+      "width": 4000,
+      "height": 3000,
+      "file_name": "20240217_151324.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240217_151324.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240217_151324.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977774Z"
+    },
+    {
+      "id": 6,
+      "width": 4000,
+      "height": 3000,
+      "file_name": "20231217_145023.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20231217_145023.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20231217_145023.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977858Z"
+    },
+    {
+      "id": 7,
+      "width": 3000,
+      "height": 4000,
+      "file_name": "20231217_121549.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20231217_121549.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20231217_121549.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977906Z"
+    },
+    {
+      "id": 8,
+      "width": 3000,
+      "height": 4000,
+      "file_name": "20240308_085936.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240308_085936.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240308_085936.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977802Z"
+    },
+    {
+      "id": 9,
+      "width": 4000,
+      "height": 3000,
+      "file_name": "20240309_185954.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240309_185954.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240309_185954.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977872Z"
+    },
+    {
+      "id": 10,
+      "width": 3000,
+      "height": 4000,
+      "file_name": "20240127_152135.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240127_152135.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240127_152135.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977817Z"
+    },
+    {
+      "id": 11,
+      "width": 4000,
+      "height": 3000,
+      "file_name": "20240315_143141.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240315_143141.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240315_143141.jpg",
+      "date_captured": "2024-03-22T00:39:55.797769Z"
+    },
+    {
+      "id": 12,
+      "width": 3000,
+      "height": 4000,
+      "file_name": "20240215_185649.jpg",
+      "coco_url": "AmlDatastore://custom_kitties_labeling_datastore/20240215_185649.jpg",
+      "absolute_url": "https://ai102demosaeus.blob.core.windows.net/customkitties/20240215_185649.jpg",
+      "date_captured": "2024-03-22T00:39:55.7977831Z"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "image_id": 1,
+      "area": 0.072,
+      "bbox": [
+        0.6455627705627706,
+        0.3448773448773449,
+        0.3495670995670995,
+        0.20490620490620493
+      ]
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "image_id": 1,
+      "area": 0.084,
+      "bbox": [
+        0.0027056277056277055,
+        0.26695526695526695,
+        0.36904761904761907,
+        0.22799422799422803
+      ]
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "image_id": 2,
+      "area": 0.233,
+      "bbox": [
+        0.3027898027898028,
+        0.1919191919191919,
+        0.5464165464165465,
+        0.42712842712842713
+      ]
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "image_id": 3,
+      "area": 0.461,
+      "bbox": [
+        0.17772967772967774,
+        0.1746031746031746,
+        0.607984607984608,
+        0.7590187590187589
+      ]
+    },
+    {
+      "id": 5,
+      "category_id": 1,
+      "image_id": 4,
+      "area": 0.404,
+      "bbox": [
+        0.2700817700817701,
+        0.005772005772005772,
+        0.7299182299182299,
+        0.5541125541125541
+      ]
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "image_id": 4,
+      "area": 0.172,
+      "bbox": [
+        0.3528138528138528,
+        0.5800865800865801,
+        0.5175565175565175,
+        0.3318903318903319
+      ]
+    },
+    {
+      "id": 7,
+      "category_id": 2,
+      "image_id": 5,
+      "area": 0.217,
+      "bbox": [
+        0.3814935064935065,
+        0.2972582972582973,
+        0.4404761904761905,
+        0.4935064935064935
+      ]
+    },
+    {
+      "id": 8,
+      "category_id": 2,
+      "image_id": 6,
+      "area": 0.38,
+      "bbox": [
+        0.10984848484848485,
+        0.16305916305916307,
+        0.814935064935065,
+        0.46608946608946605
+      ]
+    },
+    {
+      "id": 9,
+      "category_id": 2,
+      "image_id": 7,
+      "area": 0.121,
+      "bbox": [
+        0.34704184704184704,
+        0.26406926406926406,
+        0.41173641173641173,
+        0.292929292929293
+      ]
+    },
+    {
+      "id": 10,
+      "category_id": 1,
+      "image_id": 8,
+      "area": 0.576,
+      "bbox": [
+        0.09307359307359307,
+        0.1443001443001443,
+        0.8427128427128427,
+        0.683982683982684
+      ]
+    },
+    {
+      "id": 11,
+      "category_id": 1,
+      "image_id": 9,
+      "area": 0.401,
+      "bbox": [
+        0.12175324675324675,
+        0.23809523809523808,
+        0.8073593073593074,
+        0.49639249639249644
+      ]
+    },
+    {
+      "id": 12,
+      "category_id": 1,
+      "image_id": 10,
+      "area": 0.038,
+      "bbox": [
+        0.3104858104858105,
+        0.2222222222222222,
+        0.34439634439634437,
+        0.1111111111111111
+      ]
+    },
+    {
+      "id": 13,
+      "category_id": 2,
+      "image_id": 10,
+      "area": 0.292,
+      "bbox": [
+        0.19504569504569505,
+        0.3318903318903319,
+        0.5252525252525253,
+        0.5555555555555556
+      ]
+    },
+    {
+      "id": 14,
+      "category_id": 2,
+      "image_id": 11,
+      "area": 0.291,
+      "bbox": [
+        0.18235930735930736,
+        0.2987012987012987,
+        0.5346320346320346,
+        0.5440115440115441
+      ]
+    },
+    {
+      "id": 15,
+      "category_id": 1,
+      "image_id": 12,
+      "area": 0.556,
+      "bbox": [
+        0.23737373737373738,
+        0.25685425685425683,
+        0.761904761904762,
+        0.7301587301587302
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Autumn"
+    },
+    {
+      "id": 2,
+      "name": "Junipur"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="tags">
+        <h2>Select a Tag:</h2>
+        {% for tag in tags %}
+            <a href="/?tag={{ tag }}" class="{{ 'active' if tag == selected_tag else '' }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
+    <div class="images-grid">
+        {% for image in images %}
+            <img src="{{ url_for('static', filename='images/' + image['filename'].split('/')[-1]) }}" alt="Image">
+        {% endfor %}
+    </div>
+</body>
+</html>

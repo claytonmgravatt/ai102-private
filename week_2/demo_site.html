@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        #image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            padding: 10px;
+        }
+
+        #image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #tag-filters {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .tag-button {
+            margin: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            background-color: #f0f0f0;
+            border: 1px solid #d1d1d1;
+            border-radius: 5px;
+        }
+
+        .tag-button.active {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="tag-filters"></div>
+    <div id="image-grid"></div>
+
+    <script>
+        // Assuming imageData is populated with your JSON data
+        const imageData = [
+    {
+        "filename": "images/DSC07629 (2023-10-01T19_43_47.162).jpg",
+        "tags": [
+            "outdoor",
+            "statue",
+            "sky",
+            "water",
+            "sculpture",
+            "tree",
+            "cloud",
+            "mountain",
+            "lake",
+            "landscape",
+            "nature"
+        ],
+        "metadata": {
+            "width": 3000,
+            "height": 1688
+        }
+    },
+    {
+        "filename": "images/DSC07666 (2023-10-01T19_44_28.479).jpg",
+        "tags": [
+            "outdoor",
+            "sky",
+            "statue",
+            "building",
+            "monument",
+            "church",
+            "sculpture",
+            "tower",
+            "autumn",
+            "fall"
+        ],
+        "metadata": {
+            "width": 3000,
+            "height": 1688
+        }
+    },
+    {
+        "filename": "images/DSC07727.jpg",
+        "tags": [
+            "grass",
+            "outdoor",
+            "animal",
+            "mammal",
+            "plant",
+            "pasture",
+            "livestock",
+            "tree",
+            "cattle",
+            "herding",
+            "terrestrial animal",
+            "herd",
+            "fodder",
+            "field",
+            "grazing",
+            "grassy",
+            "sheep",
+            "mountain",
+            "hillside",
+            "landscape",
+            "nature"
+        ],
+        "metadata": {
+            "width": 3000,
+            "height": 1688
+        }
+    },
+    {
+        "filename": "images/DSC08037.jpg",
+        "tags": [
+            "outdoor",
+            "sky",
+            "building",
+            "tree",
+            "clock",
+            "city",
+            "landmark",
+            "seat of local government",
+            "clock tower",
+            "turret",
+            "facade",
+            "tower",
+            "large",
+            "government building"
+        ],
+        "metadata": {
+            "width": 3000,
+            "height": 1688
+        }
+    },
+    {
+        "filename": "images/DSC08294.jpg",
+        "tags": [
+            "outdoor",
+            "grass",
+            "sky",
+            "landscape",
+            "mountain",
+            "pasture",
+            "plant",
+            "cloud",
+            "hill",
+            "grassland",
+            "meadow",
+            "wilderness",
+            "rock",
+            "field",
+            "animal",
+            "grazing",
+            "hillside",
+            "grassy",
+            "mammal",
+            "nature"
+        ],
+        "metadata": {
+            "width": 3000,
+            "height": 1688
+        }
+    },
+    {
+        "filename": "images/DSC08708.jpg",
+        "tags": [
+            "outdoor",
+            "sky",
+            "tree",
+            "clothing",
+            "person",
+            "hiking",
+            "plant",
+            "man",
+            "statue",
+            "riding",
+            "sitting",
+            "mountain",
+            "park"
+        ],
+        "metadata": {
+            "width": 3000,
+            "height": 1688
+        }
+    }
+]
+
+        function initGallery() {
+            const uniqueTags = new Set();
+            imageData.forEach(item => {
+                item.tags.forEach(tag => uniqueTags.add(tag));
+            });
+
+            const tagFilters = document.getElementById('tag-filters');
+            uniqueTags.forEach(tag => {
+                const button = document.createElement('button');
+                button.classList.add('tag-button');
+                button.innerText = tag;
+                button.onclick = () => filterImages(tag, button);
+                tagFilters.appendChild(button);
+            });
+
+            displayImages(imageData);
+        }
+
+        function filterImages(tag, button) {
+            document.querySelectorAll('.tag-button').forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const filteredData = imageData.filter(item => item.tags.includes(tag));
+            displayImages(filteredData);
+        }
+
+        function displayImages(data) {
+            const imageGrid = document.getElementById('image-grid');
+            imageGrid.innerHTML = '';
+
+            data.forEach(item => {
+                const imgElement = document.createElement('img');
+                imgElement.src = item.filename; // Make sure this path is correct
+                imageGrid.appendChild(imgElement);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', initGallery);
+    </script>
+</body>
+</html>
