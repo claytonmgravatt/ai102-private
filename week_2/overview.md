@@ -1,9 +1,8 @@
 
 
-| Learning Path(s)                    | Modules   |
-|-------------------------------------|-----------|
-| Get Start with Azure AI Services    | Modules 1-5 |
-| Create computer vision solutions with Azure AI vision | Module 1 |
+| Week | Date         | Learning Path                                                                                                                                                                               | Modules                         |
+|------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| 2    | May 9, 2024  | [Get Started with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/get-started-azure-ai/) <br> [Create computer vision solutions with Azure AI vision](https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/) | Modules 1-5 <br> Module 1       |
 
 ## Study Guide Sections Covered 
 * Plan, create and deploy an Azure AI service
@@ -56,7 +55,7 @@
   
 - **Accountability:** People behind AI systems are accountable for their design and operation, ensuring they meet ethical and legal standards within a governance framework.
 
-### Creation and Consumption
+### Creation and Consumption - Demo time!
 
 - Push create button. Call consume API.
 

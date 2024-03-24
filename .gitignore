@@ -163,3 +163,5 @@ cython_debug/
 # Other
 
 hidden.txt
+yammer_data.json
+sentiment_key_phrases.json
