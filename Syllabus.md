@@ -12,13 +12,13 @@
 
 This course is structured around preparing for the Azure AI 102 exam to become a Microsoft Certified Azure AI Engineer Associate. However, it also broadly covers the applications and limitations of current cloud-based AI offerings.
 
-Weekly sessions will include walkthroughs, discussions, code samples, and demonstrations, with an emphasis on real-world applicability. Students will be provided Microsoft-curated supplementary readings, as well as weekly example projects to optionally complete.
+Weekly sessions will include walkthroughs, discussions, code samples, and demonstrations, with an emphasis on real-world applicability. Participants will be provided Microsoft-curated supplementary readings, as well as weekly example projects to optionally complete.
 
 
 
 ## Course Objectives
 
-By the end of this course, students are expected to know how to:
+By the end of this course, participants are expected to know how to:
  * Plan and manage an Azure AI solution
  * Implement decision support solutions
  * Implement computer vision solutions
@@ -31,7 +31,7 @@ By the end of this course, students are expected to know how to:
 This course is designed for three target audiences.
  1. People preparing for the AI 102 certification exam. 
     - This group is expected to have some existing knowledge of Azure, as well as some familiarity with Python or C#.
-    - This group should thoroughly review and supplementary reading, which is targeted for the exam.
+    - This group should thoroughly review the supplementary reading, which is targeted for the exam.
 2. Developers seeking to learn how to integrate AI solutions into their applications.
     - This group is expected to have some existing knowledge of Azure, as well as some familiarity with Python or C#.
     - This group may also benefit from reading the supplementary reading materials, but should focus on completing weekly projects.
@@ -75,7 +75,7 @@ This course is designed for three target audiences.
 | 10   | July 4, 2024 | [Develop Solutions with Azure AI Document Intelligence](https://learn.microsoft.com/en-us/training/paths/extract-data-from-forms-document-intelligence/)                                    | Modules 1-5                      |
 | 11   | July 11, 2024| [Develop Generative AI solutions with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/)                                            | Modules 1-7                     |
 | 12   | July 18, 2024| STUDY/REVIEW                                                                                                                                                                                |                                 |
-
+** Subject to change
 
 
 
@@ -94,6 +94,7 @@ Practice Exam (at your own peril): https://learn.microsoft.com/en-us/credentials
 
 
 ## AI 102 Exam Preparedness:
+### Exam Structure:
 - 45ish questions
 - multiple sections. 
 - Need 700/1000 to pass. 

@@ -43,6 +43,19 @@
 - Self-fulfilling prophecies (policing/education)
 - Accuracy vs fairness (99% vs 95%)
 
+
+- **Fairness:** AI systems should ensure fair treatment across all demographics, actively working to eliminate bias from machine learning models through rigorous evaluation and mitigation strategies.
+  
+- **Reliability and Safety:** AI systems must achieve high reliability and safety, especially in critical applications like autonomous vehicles or healthcare diagnostics, through comprehensive testing and deployment management.
+  
+- **Privacy and Security:** AI systems need to secure data and respect user privacy, implementing safeguards to protect personal information throughout the system's lifecycle.
+  
+- **Inclusiveness:** AI should empower and engage everyone, being developed with input from diverse groups to ensure benefits are accessible across all sections of society.
+  
+- **Transparency:** AI systems should be transparent, making users aware of their purpose, workings, limitations, and how data is used and retained.
+  
+- **Accountability:** People behind AI systems are accountable for their design and operation, ensuring they meet ethical and legal standards within a governance framework.
+
 ### Creation and Consumption
 
 - Push create button. Call consume API.
@@ -86,3 +99,48 @@ ApiKey=<yourKey>
 - *Smart thumbnail generation* - identifying the main region of interest in the image to create a smaller "thumbnail" version.
 
 - *see notebook*
+
+
+---
+
+## Example Questions
+
+### 1. Region Description in Images
+You need to create a description for each region within an image. Which visual features should you extract? Fill in the blank with the correct visual feature:
+
+```python
+image_analysis = image_analysis_client.analyze(
+    image_data=image_data, visual_features=[VisualFeatures.________] # Fill in the blank
+)
+```
+**Options:**
+- a. `DENSE_CAPTIONS`
+- b. `SMART_CROPS`
+- c. `CAPTION`
+- d. `SMART_TAGS`
+
+### 2. Extracting Foreground from Images
+You need to extract the foreground from an image. Complete the URL in the space provided:
+
+```python
+api_version = "2023-02-01-preview"
+mode="backgroundRemoval"
+url = f"https://ai-102-demo-compvision-eus.cognitiveservices.azure.com/computervision/imageanalysis:_________?api-version={api_version}&mode={mode}" # Complete the URL
+```
+**Options:**
+- a. segment
+- b. backgroundRemoval
+- c. foregroundMatting
+- d. foregroundRecognizer
+
+### 3. Responsible AI Principles
+You are developing a new sales system that will process the video and text from a public-facing website.  
+You plan to monitor the sales system to ensure that it provides equitable results regardless of the user's location or background.  
+Which two responsible AI principles provide guidance to meet the monitoring requirements? Each correct answer presents part of the solution.  
+**NOTE:** Each correct selection is worth one point.
+
+- A. transparency
+- B. fairness
+- C. inclusiveness
+- D. reliability and safety
+- E. privacy and security
