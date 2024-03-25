@@ -1,9 +1,11 @@
-
-| Learning Path(s)                                         | Modules   |
-|----------------------------------------------------------|-----------|
-| Create computer vision solutions with Azure AI vision    | Modules 2-4 |
+| Week | Date         | Learning Path                                                                                                                                                                               | Modules                         |
+|------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| 3    | May 16, 2024 | [Create computer vision solutions with Azure AI vision](https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/)                                        | Modules 2-4                     |
 
 ## Study Guide Sections Covered 
+* Analyze images
+   - Convert handwritten text using Azure AI Vision
+
 * Implement custom computer vision models by using Azure AI Vision
    - Choose between image classification and object detection models
    - Label images
@@ -12,22 +14,34 @@
    - Publish a custom vision model
    - Consume a custom vision model
 
-* Analyze images
-   - Convert handwritten text using Azure AI Vision
-
 # Create computer vision solutions with Azure AI vision
+
+### Resources Used
 Computer Vision Resource (demo?)
-COCO labelling tool (Azure ML Studio)
 
-## Custom Vision 
+COCO image labelling tool (Azure ML Studio)
 
-### Vocabulary
- - *Image Classification* - Image belongs to a class (or classes)..
-    - This picture is of a cat.
-    - This picture is of a [dog, animal]
-    
- - *Object Detection* - A specific object in a specific location in the image.
-    - Apple at coordinates x,y
+Azure Storage Account
+
+## Read API
+Two options for reading text:
+
+- **Image Analysis:**
+  - Ideal for unstructured documents or images with a small amount of text.
+  - Provides immediate, synchronous results from a single API call.
+  - Capabilities include text extraction, object detection, and image categorization.
+  - Examples: street signs, handwritten notes, store signs.
+```python
+image_analysis = image_analysis_client.analyze(
+    image_data=image_data, visual_features=[VisualFeatures.READ]
+)
+```
+
+- **Document Intelligence:** <-- We'll cover this later!
+  - Suitable for reading text from small to large volumes in images and PDF documents.
+  - Utilizes document context and structure to enhance accuracy.
+  - Operates asynchronously, requiring an operation ID for result retrieval.
+  - Examples: receipts, articles, invoices.
 
 ## Face
  * Limited Access Policy 
@@ -51,6 +65,39 @@ COCO labelling tool (Azure ML Studio)
    - Facial recognition - you can train a model with a collection of faces belonging to specific individuals, and use the model to identify those people in new images.
    - Facial liveness - liveness can be used to determine if the input video is a real stream or a fake to prevent bad intentioned individuals from spoofing the recognition system.
 
-## Read API
-TODO: read handwritten text
+## Custom Vision 
 
+### Vocabulary
+ - *Image Classification* - Image belongs to a class (or classes)..
+    - This picture is of a cat.
+    - This picture is of a [dog, animal]
+    
+ - *Object Detection* - A specific object in a specific location in the image.
+    - Apple at coordinates x,y
+
+---
+
+## Example Questions
+
+### 1. Reading Receipts
+You're helping a small business automate reading receipts. What service should you use?
+
+- A. Image Analysis
+- B. Text Analysis
+- C. Object Detection
+- D. Document Intelligence
+
+### 2.  OCR Sizing
+When using the Read OCR function, how are the results structured for easier text extraction and analysis?
+
+- A. The results are returned asynchronously as a binary stream, divided into pages and paragraphs.
+- B. The results are returned synchronously, organized hierarchically into blocks, lines, and words, with text values provided at both the line and word levels.
+- C. The results are only provided at the word level.
+- D. The results are encoded in an image format, with metadata describing text location and font size.
+
+### 3. Location
+
+You need to determine when cats are on the counter within an image. You should use Custom Image Classification.
+
+A. True  
+B. False

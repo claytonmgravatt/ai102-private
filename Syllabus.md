@@ -40,7 +40,7 @@ This course is designed for three target audiences.
 
 ## Technologies Covered
 
-| Natural language processing     | Knowledge mining and document intelligence | Computer vision                  | Decision support      | Generative AI        |
+| Natural language processing     | Knowledge mining and document intelligence | Computer vision                 | Decision support      | Generative AI        |
 |---------------------------------|--------------------------------------------|---------------------------------|-----------------------|----------------------|
 | Text analysis                   | AI Search                                  | Image analysis                  | Content safety        | Azure OpenAI Service |
 | Question answering              | Document Intelligence                      | Video analysis                  | Content moderation    | DALL-E image generation |

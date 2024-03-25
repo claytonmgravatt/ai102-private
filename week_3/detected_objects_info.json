@@ -1,0 +1,1190 @@
+[
+    {
+        "customModelResult": {
+            "objectsResult": {
+                "values": [
+                    {
+                        "id": "1",
+                        "boundingBox": {
+                            "x": 488,
+                            "y": 984,
+                            "w": 1386,
+                            "h": 976
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.52294921875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "boundingBox": {
+                            "x": 197,
+                            "y": 930,
+                            "w": 287,
+                            "h": 335
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.438720703125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "boundingBox": {
+                            "x": 1958,
+                            "y": 872,
+                            "w": 1848,
+                            "h": 1171
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.43310546875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "boundingBox": {
+                            "x": 1551,
+                            "y": 1423,
+                            "w": 1928,
+                            "h": 1072
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.413818359375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "boundingBox": {
+                            "x": 2435,
+                            "y": 1165,
+                            "w": 378,
+                            "h": 418
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.3876953125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "boundingBox": {
+                            "x": 1551,
+                            "y": 1423,
+                            "w": 1928,
+                            "h": 1072
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.378173828125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "boundingBox": {
+                            "x": 3071,
+                            "y": 1010,
+                            "w": 481,
+                            "h": 431
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.341064453125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "boundingBox": {
+                            "x": 1958,
+                            "y": 872,
+                            "w": 1848,
+                            "h": 1171
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.286376953125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "boundingBox": {
+                            "x": 1261,
+                            "y": 946,
+                            "w": 410,
+                            "h": 343
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.27880859375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "boundingBox": {
+                            "x": 1464,
+                            "y": 428,
+                            "w": 542,
+                            "h": 675
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.263671875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "boundingBox": {
+                            "x": 488,
+                            "y": 984,
+                            "w": 1386,
+                            "h": 976
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.2413330078125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "boundingBox": {
+                            "x": 20,
+                            "y": 51,
+                            "w": 3922,
+                            "h": 2922
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.23388671875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "boundingBox": {
+                            "x": 2157,
+                            "y": 1014,
+                            "w": 363,
+                            "h": 292
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2232666015625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "boundingBox": {
+                            "x": 197,
+                            "y": 930,
+                            "w": 287,
+                            "h": 335
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.2120361328125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "boundingBox": {
+                            "x": 0,
+                            "y": 57,
+                            "w": 3935,
+                            "h": 2852
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2113037109375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "16",
+                        "boundingBox": {
+                            "x": 1992,
+                            "y": 1020,
+                            "w": 109,
+                            "h": 93
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.206787109375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "17",
+                        "boundingBox": {
+                            "x": 1082,
+                            "y": 1016,
+                            "w": 464,
+                            "h": 283
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.202392578125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "18",
+                        "boundingBox": {
+                            "x": 1483,
+                            "y": 417,
+                            "w": 485,
+                            "h": 353
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.197265625
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "modelVersion": "2023-02-01-preview",
+        "metadata": {
+            "width": 4000,
+            "height": 3000
+        }
+    },
+    {
+        "customModelResult": {
+            "objectsResult": {
+                "values": [
+                    {
+                        "id": "1",
+                        "boundingBox": {
+                            "x": 2609,
+                            "y": 841,
+                            "w": 1083,
+                            "h": 748
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.83837890625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "boundingBox": {
+                            "x": 1504,
+                            "y": 1381,
+                            "w": 1938,
+                            "h": 1076
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.37451171875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "boundingBox": {
+                            "x": 353,
+                            "y": 900,
+                            "w": 1479,
+                            "h": 1043
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.359375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "boundingBox": {
+                            "x": 1504,
+                            "y": 1381,
+                            "w": 1938,
+                            "h": 1076
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.359130859375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "boundingBox": {
+                            "x": 2609,
+                            "y": 841,
+                            "w": 1083,
+                            "h": 748
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.349365234375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "boundingBox": {
+                            "x": 2399,
+                            "y": 1131,
+                            "w": 386,
+                            "h": 408
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.331298828125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "boundingBox": {
+                            "x": 1409,
+                            "y": 385,
+                            "w": 585,
+                            "h": 691
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.263427734375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "boundingBox": {
+                            "x": 2594,
+                            "y": 891,
+                            "w": 1125,
+                            "h": 1073
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.25927734375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "boundingBox": {
+                            "x": 1220,
+                            "y": 917,
+                            "w": 403,
+                            "h": 339
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2073974609375
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "modelVersion": "2023-02-01-preview",
+        "metadata": {
+            "width": 4000,
+            "height": 3000
+        }
+    },
+    {
+        "customModelResult": {
+            "objectsResult": {
+                "values": [
+                    {
+                        "id": "1",
+                        "boundingBox": {
+                            "x": 2803,
+                            "y": 774,
+                            "w": 882,
+                            "h": 832
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.8525390625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "boundingBox": {
+                            "x": 1929,
+                            "y": 1687,
+                            "w": 859,
+                            "h": 693
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.78271484375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "boundingBox": {
+                            "x": 2803,
+                            "y": 774,
+                            "w": 882,
+                            "h": 832
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.5380859375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "boundingBox": {
+                            "x": 1929,
+                            "y": 1687,
+                            "w": 859,
+                            "h": 693
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.452880859375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "boundingBox": {
+                            "x": 1509,
+                            "y": 1385,
+                            "w": 1912,
+                            "h": 1050
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.423828125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "boundingBox": {
+                            "x": 1509,
+                            "y": 1385,
+                            "w": 1912,
+                            "h": 1050
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.347900390625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "boundingBox": {
+                            "x": 2388,
+                            "y": 1133,
+                            "w": 393,
+                            "h": 408
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.342041015625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "boundingBox": {
+                            "x": 357,
+                            "y": 914,
+                            "w": 1466,
+                            "h": 1028
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2939453125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "boundingBox": {
+                            "x": 1393,
+                            "y": 390,
+                            "w": 562,
+                            "h": 685
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.254150390625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "boundingBox": {
+                            "x": 2304,
+                            "y": 765,
+                            "w": 1371,
+                            "h": 768
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2158203125
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "modelVersion": "2023-02-01-preview",
+        "metadata": {
+            "width": 4000,
+            "height": 3000
+        }
+    },
+    {
+        "customModelResult": {
+            "objectsResult": {
+                "values": [
+                    {
+                        "id": "1",
+                        "boundingBox": {
+                            "x": 2905,
+                            "y": 842,
+                            "w": 799,
+                            "h": 764
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.86279296875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "boundingBox": {
+                            "x": 2274,
+                            "y": 1732,
+                            "w": 1604,
+                            "h": 986
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.74169921875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "boundingBox": {
+                            "x": 2274,
+                            "y": 1732,
+                            "w": 1604,
+                            "h": 986
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.62158203125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "boundingBox": {
+                            "x": 2905,
+                            "y": 842,
+                            "w": 799,
+                            "h": 764
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.51611328125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "boundingBox": {
+                            "x": 2388,
+                            "y": 1130,
+                            "w": 382,
+                            "h": 410
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.351806640625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "boundingBox": {
+                            "x": 1498,
+                            "y": 1376,
+                            "w": 1931,
+                            "h": 761
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.33154296875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "boundingBox": {
+                            "x": 1475,
+                            "y": 1360,
+                            "w": 1939,
+                            "h": 788
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.320068359375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "boundingBox": {
+                            "x": 372,
+                            "y": 922,
+                            "w": 1449,
+                            "h": 1020
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2783203125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "boundingBox": {
+                            "x": 1381,
+                            "y": 389,
+                            "w": 582,
+                            "h": 686
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.261962890625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "boundingBox": {
+                            "x": 2284,
+                            "y": 836,
+                            "w": 1416,
+                            "h": 683
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.1964111328125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "boundingBox": {
+                            "x": 1804,
+                            "y": 884,
+                            "w": 1969,
+                            "h": 1552
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.1654052734375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "boundingBox": {
+                            "x": 1535,
+                            "y": 1441,
+                            "w": 2017,
+                            "h": 1109
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.1651611328125
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "modelVersion": "2023-02-01-preview",
+        "metadata": {
+            "width": 4000,
+            "height": 3000
+        }
+    },
+    {
+        "customModelResult": {
+            "objectsResult": {
+                "values": [
+                    {
+                        "id": "1",
+                        "boundingBox": {
+                            "x": 2793,
+                            "y": 741,
+                            "w": 821,
+                            "h": 858
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.8681640625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "boundingBox": {
+                            "x": 2596,
+                            "y": 1970,
+                            "w": 1392,
+                            "h": 873
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.76953125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "boundingBox": {
+                            "x": 2793,
+                            "y": 741,
+                            "w": 821,
+                            "h": 858
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.59033203125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "boundingBox": {
+                            "x": 2598,
+                            "y": 1972,
+                            "w": 1393,
+                            "h": 870
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.442626953125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "boundingBox": {
+                            "x": 2388,
+                            "y": 1130,
+                            "w": 390,
+                            "h": 412
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.363525390625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "boundingBox": {
+                            "x": 1502,
+                            "y": 1382,
+                            "w": 1925,
+                            "h": 782
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.338134765625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "boundingBox": {
+                            "x": 1479,
+                            "y": 1370,
+                            "w": 1958,
+                            "h": 800
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.313232421875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "boundingBox": {
+                            "x": 366,
+                            "y": 916,
+                            "w": 1455,
+                            "h": 1027
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.295166015625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "boundingBox": {
+                            "x": 1392,
+                            "y": 392,
+                            "w": 563,
+                            "h": 684
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.269775390625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "boundingBox": {
+                            "x": 2803,
+                            "y": 824,
+                            "w": 886,
+                            "h": 1137
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2073974609375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "boundingBox": {
+                            "x": 2195,
+                            "y": 753,
+                            "w": 1401,
+                            "h": 785
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.1932373046875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "boundingBox": {
+                            "x": 2581,
+                            "y": 1511,
+                            "w": 1414,
+                            "h": 1267
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.1478271484375
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "modelVersion": "2023-02-01-preview",
+        "metadata": {
+            "width": 4000,
+            "height": 3000
+        }
+    },
+    {
+        "customModelResult": {
+            "objectsResult": {
+                "values": [
+                    {
+                        "id": "1",
+                        "boundingBox": {
+                            "x": 1579,
+                            "y": 869,
+                            "w": 833,
+                            "h": 594
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.83740234375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "boundingBox": {
+                            "x": 1579,
+                            "y": 869,
+                            "w": 833,
+                            "h": 594
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.374267578125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "boundingBox": {
+                            "x": 1464,
+                            "y": 1419,
+                            "w": 1920,
+                            "h": 1038
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.35693359375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "boundingBox": {
+                            "x": 1438,
+                            "y": 1406,
+                            "w": 1936,
+                            "h": 1053
+                        },
+                        "tags": [
+                            {
+                                "name": "Autumn",
+                                "confidence": 0.355712890625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "boundingBox": {
+                            "x": 2331,
+                            "y": 1128,
+                            "w": 371,
+                            "h": 427
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.35302734375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "boundingBox": {
+                            "x": 273,
+                            "y": 945,
+                            "w": 1416,
+                            "h": 1025
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.336669921875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "boundingBox": {
+                            "x": 2956,
+                            "y": 982,
+                            "w": 462,
+                            "h": 418
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.3076171875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "boundingBox": {
+                            "x": 1343,
+                            "y": 411,
+                            "w": 556,
+                            "h": 545
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2919921875
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "boundingBox": {
+                            "x": 1690,
+                            "y": 815,
+                            "w": 1964,
+                            "h": 1175
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.27099609375
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "boundingBox": {
+                            "x": 1150,
+                            "y": 944,
+                            "w": 416,
+                            "h": 337
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.265869140625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "boundingBox": {
+                            "x": 345,
+                            "y": 813,
+                            "w": 3313,
+                            "h": 1153
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2310791015625
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "boundingBox": {
+                            "x": 41,
+                            "y": 59,
+                            "w": 3886,
+                            "h": 2839
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.2237548828125
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "boundingBox": {
+                            "x": 814,
+                            "y": 1005,
+                            "w": 2795,
+                            "h": 1390
+                        },
+                        "tags": [
+                            {
+                                "name": "Junipur",
+                                "confidence": 0.171875
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "modelVersion": "2023-02-01-preview",
+        "metadata": {
+            "width": 4000,
+            "height": 3000
+        }
+    }
+]
