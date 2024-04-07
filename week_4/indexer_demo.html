@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Insights Dashboard</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Import a pixelated font */
+
+    body {
+        font-family: 'Press Start 2P', cursive; /* Use the imported font */
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(45deg, #ff79c6, #bd93f9, #ff5555, #f1fa8c); /* A vibrant gradient background */
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #ffffff; /* Bright text color for contrast */
+    }
+
+    @keyframes gradientBG {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+
+    .container {
+        margin-top: 20px;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the container */
+        border-radius: 16px; /* Rounded corners */
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    }
+
+    .title {
+        color: #50fa7b; /* Neon-like title color */
+        margin: 20px;
+        text-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Glowing text effect */
+    }
+
+    iframe {
+        border: 2px solid #ff79c6; /* Border color that matches the theme */
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(255, 121, 198, 0.7); /* Soft shadow that matches the border color */
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Embrace AI</h1>
+    <iframe width="1280" height="720" src="https://www.videoindexer.ai/embed/player/67a506f2-57e3-4965-8c2e-e8c6fc099262/46d0829580/?&locale=en&location=trial" frameborder="0" allowfullscreen></iframe>
+    <iframe width="580" height="780" src="https://www.videoindexer.ai/embed/insights/67a506f2-57e3-4965-8c2e-e8c6fc099262/46d0829580/?&locale=en&location=trial" frameborder="0" allowfullscreen></iframe>
+</div>
+<script src="https://breakdown.blob.core.windows.net/public/vb.widgets.mediator.js"></script>
+</body>
+</html>
