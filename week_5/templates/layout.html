@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Chatbot</title>
+    <script src="/static/chat.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+        body {
+            font-family: 'Permanent Marker', cursive;
+            /* Crayon-like font */
+            margin: 0;
+            padding: 0;
+            background: url('https://plus.unsplash.com/premium_photo-1675695700239-44153e6bf430?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFwZXIlMjB0ZXh0dXJlfGVufDB8fDB8fHww');
+            color: #333;
+        }
+
+        header {
+            background: #ff6347;
+            /* Brighter color */
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+            border-bottom: 4px dashed yellow;
+            /* Crayon-drawn effect */
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+            color: #0056b3;
+            /* Childish blue */
+        }
+
+        .image-small {
+            width: 600px;
+            /* Adjust width as needed */
+            height: auto;
+        }
+
+        #chat-interface {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            background: #f0e68c;
+            /* Light yellow background */
+        }
+
+        #chatbox {
+            height: 300px;
+            background: white;
+            border: 3px solid #ff4500;
+            /* Brighter and thicker border */
+            border-radius: 8px;
+            overflow-y: auto;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        #userInput,
+        #sendButton {
+            height: 30px;
+            border-radius: 5px;
+            padding: 0 10px;
+            border: 2px solid #32cd32;
+            /* Bright green border */
+        }
+
+        #userInput {
+            flex-grow: 1;
+            margin-bottom: 5px;
+            background: #ffffff;
+            /* Clear white */
+        }
+
+        #sendButton {
+            background: #ff6347;
+            /* Tomato red */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #sendButton:hover {
+            background: #ee5f5b;
+            /* Darker red on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Buy apple</h1>
+    </header>
+    <main>
+        <p>Apple makes you good</p>
+        <img src="/static/buy_apple.webp" alt="Decorative Image" class="image-small">
+    </main>
+
+    <!-- Chatbot Interface -->
+    <div id="chat-interface">
+        <div id="chatbox"></div>
+        <input type="text" id="userInput" placeholder="Type a message...">
+        <button id="sendButton" onclick="sendMessage()">Send</button>
+    </div>
+</body>
+
+</html>
