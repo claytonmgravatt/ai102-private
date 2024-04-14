@@ -1,7 +1,7 @@
 import json
 import os
 
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 from azure.ai.vision.imageanalysis import ImageAnalysisClient
 from azure.core.credentials import AzureKeyCredential
 from dotenv import load_dotenv
