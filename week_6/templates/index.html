@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Banking App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- Calligraphy font -->
+    <style>
+        body {
+            font-family: 'Great Vibes', cursive;
+            background-color: #fdf5e6;
+            /* You might remove or adjust this if the image is sufficient */
+            color: #5a2d0c;
+            padding: 20px;
+            font-size: 30px;
+            background-image: url('static/demo_background.webp');
+            /* Replace with your image URL */
+            background-size: cover;
+            /* Cover ensures the background covers the whole area */
+            background-position: center;
+            /* Centers the background image */
+            background-repeat: no-repeat;
+            /* Prevents the image from repeating */
+            height: 100vh; /* Full height */
+            width: 100vw; /* Full width */
+        }
+
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+            background-color: #fffbe6;
+            /* Light parchment background for the container */
+            border: 1px solid #ccc;
+            /* Subtle border */
+            padding: 20px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            /* Soft shadow for depth */
+        }
+
+        h1,
+        h3 {
+            color: #834f39;
+            /* Deeper brown for headings */
+        }
+
+        .balance,
+        .response {
+            background-color: #f8f0e3;
+            /* Even lighter background for content areas */
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #decba4;
+            /* Gentle border color */
+        }
+
+        input[type="text"],
+        .form-control {
+            font-family: 'Arial', sans-serif;
+            /* More readable font for form inputs */
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Account Information</h1>
+        <form id="userInputForm">
+            <input type="text" class="form-control mb-3" name="user_input" id="userInput"
+                placeholder="I'm your virtual assistant. How can I help?" required>
+        </form>
+        <div id="responseArea" class="response" style="display: none;"></div>
+        <p><strong>Name:</strong> <span id="accountName">{{ account.name }}</span></p>
+        <p><strong>Email:</strong> <span id="accountEmail">{{ account.email }}</span></p>
+        <div class="balance">
+            <h3>Balance</h3>
+            <p><strong>Savings Account:</strong> $<span id="accountSavings">{{ account.savings }}</span></p>
+            <p><strong>Checking Account:</strong> $<span id="accountChecking">{{ account.checking }}</span></p>
+        </div>
+        <!-- Response section -->
+    </div>
+    <script>
+        document.getElementById('userInputForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const userInput = document.getElementById('userInput').value;
+            fetch('/', {
+                method: 'POST', // or 'PUT'
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ user_input: userInput }),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    // Update the account information on the page
+                    document.getElementById('accountName').textContent = data.account.name;
+                    document.getElementById('accountEmail').textContent = data.account.email;
+                    document.getElementById('accountSavings').textContent = `${parseFloat(data.account.savings).toFixed(2)}`;
+                    document.getElementById('accountChecking').textContent = `${parseFloat(data.account.checking).toFixed(2)}`;
+                    document.getElementById('responseArea').style.display = 'block'; // Make response area visible
+                    // Check if data.response is an object and convert it to string if it is
+                    if (typeof data.response === 'object' && data.response !== null) {
+                        document.getElementById('responseArea').textContent = JSON.stringify(data.response, null, 2); // Pretty print the object
+                    } else {
+                        document.getElementById('responseArea').textContent = data.response || 'No response provided';
+                    }
+                    // Optionally display some response message or log
+                    console.log('Account information updated successfully.');
+                    document.getElementById('userInput').value = ''; // Clear the input after submission
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+</body>
+
+</html>
