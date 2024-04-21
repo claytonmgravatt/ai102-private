@@ -1,0 +1,18 @@
+Optimization of Power BI to Maximize Advantages of Encoding Methods
+This guide explores data compression regarding Power BI, specifically relating to xVelocity engine functionality and data importation limitations.  In this discussion, I focus on 10 GB uncompressed data and 1 GB compressed data. 
+
+Limitations of 10 GB Uncompressed Data 
+Likely error encountered by our client: “The amount of uncompressed data on the gateway client has exceeded the limit of 10 GB for a single table. Please consider reducing the use of highly repetitive strings values through normalized keys, removing unused columns, or upgrading to Power BI Premium.” 
+
+Question: How does the VertiPaq/xVelocity compression engine apply during the importation of data? 
+Answer: Power BI service uses a defined limit of 10 GB uncompressed data per table allowed for a model without Premium, regardless of compression potential, with a post-compression limit of 1 GB. VertiPaq Compression does not take place until after the source dataset is read, meaning that there are alternative data-size reduction techniques that must be applied before data is imported into Power BI.  
+
+Description of VertiPaq/xVelocity engine: 
+
+The steps that happen during processing are as follows: 
+
+Reading of the source dataset, transformation into a columnar data structure of VertiPaq, encoding and compressing each column. 
+Creation of dictionaries and indexes for each column. 
+Creation of the data structures for relationships. 
+Computation and compression of all the calculated columns. 
+Reference: https://www.microsoftpressstore.com/articles/article.aspx?p=2449192&seqNum=1 

@@ -1,0 +1,53 @@
+Enhance Your C# Expertise with essentialcsharp.com
+by Mark Michaelis
+Taking a Look at the Interactive Guide to C#
+C# is a prevalent open-source language that continues growing in popularity, with many purposes and functions, from being able to run and develop almost any kind of application, whether mobile, server-side, web, desktop, games, among many others on any platform (Windows, MacOS, Linux, iOS, Android, servers, etc.). It is one of the most common languages and frameworks we use here at IntelliTect across various applications and industries.
+
+
+The Essential C# series author, Mark Michaelis (IntelliTect CEO/Microsoft MVP/Microsoft RD) and Meg Woodford (Software Engineer/Adjunct Web Development Professor at Eastern Washington University), discuss what’s new in C# in this .NET Conference session.
+Additionally, according to 2022 stack overflow surveys, the C# framework .NET continues to become developers’ first choice for boosting productivity. Many tools utilize C#, such as Unity, which helps with 3D game development, and ASP.Net, which helps create web applications.
+
+Creating essentialcsharp.com
+This is where essentialcsharp.com comes in! Our team (Artem, Jenny, Kevin, Kelsey, Mikaella, Austen, Andrew, Grant W., John E., Tom, Benjamin, and Mark) developed a comprehensive interactive online guide to C#, designed to take learners from beginner to advanced at their own pace.
+
+The Essential C# website covers all C# features, including the recently released version, C# 11, and includes the entire content from the Essential C# book series.
+
+Whether you have never programmed or know C# in depth, the website provides an easy-to-follow guide allowing learners to explore the programming language in depth!
+
+Essential C# Website Key Topics
+ The website includes a variety of topics, including:
+
+Setting up your development environment
+Variables and Data Types
+Operators and Expressions
+Arrays and Strings
+Classes and Objects
+Inheritance and Polymorphism
+Exception Handling
+File I/O
+Multithreading/Parallelism
+And much more!
+Take a Look
+Learning C# with essentialcsharp.com is easy and fun. To start learning C#, visit the website for free, choose the topic you want to learn from our table of contents, or start at the beginning with “Chapter 1: Introducing C#”!
+
+Current and Upcoming Features
+Essential C# uniquely presents a comprehensive tutorial and reference for the entire language, going beyond the Microsoft documentation information, providing an accelerated learning opportunity to achieve expert C# programming skills regardless of skill level at the start. Modern programming patterns, code listing samples, and full-text search are just some of the exciting features on the site.
+
+Features Coming Soon to essentialcsharp.com
+Some exciting features are coming soon as well. An in-browser code compiler is being developed so users can write, compile, and run code snippets and examples from their browsers.
+
+Additionally, users will have the ability to run unit tests against the code. There won’t be any need to install anything on their computers; users can open the code panel and click the “run” button. We hope to leverage some and expand on the features of Try .NET to allow for client-side in-browser code compilation so you can modify code and rerun it to see the changes. This feature is excellent for testing and experimenting with C# code examples without any hassle of local development.
+
+The team also plans on having helpful tools like a quick reference C# naming conventions table that you can use throughout your days and practical coding guidelines that help you create consistent, secure, and manageable code.
+
+We also plan on integrating a chat AI model to allow rapid response to questions about information throughout the website. This AI model will utilize Azure OpenAI resources and build vector trees for an LLM.
+
+Have Feedback or Feature Requests?
+Our website is already packed with helpful information, but we’re always looking for ways to improve. If you’d like to see something on our website or have any feedback or suggestions, please let us know by reaching out or opening a discussion on GitHub!
+
+Let us know what other features you want to see in the comments!
+
+Want More?
+Looking to expand your development skills further? Check out our other developer tools or join a Spokane Tech User Group! Prefer a physical copy of Essential C#? Purchase the well-organized, no-fluff guide to C# on Amazon!
+
+Co-authored by Benjamin Michaelis

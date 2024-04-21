@@ -1,0 +1,20 @@
+How and Why to Implement Decoupling Classes in Your Code
+Estimated reading time: 9 minutes
+
+Decoupling is a strategy for writing testable code when dealing with hard-to-test classes, and it can be an incredibly powerful tool to help you write clean, effective, and bug-free code.
+
+Contents
+How and Why to Implement Decoupling Classes in Your Code
+Contents
+What Is Decoupling?
+Why Should I Decouple?
+Decoupling in Action
+Implementing a Decoupling Interface
+Creating a Testable Version of a Decoupling Interface
+Unit Testing Decoupled Code
+Try it Yourself
+Have Questions?
+What Is Decoupling?
+Decoupling is a coding strategy that involves taking the key parts of your classes’ functionality (specifically the hard-to-test parts) and replacing them with calls to an interface reference of your own design. With decoupling, you can instantiate two classes that implement that interface. One class is for production that makes calls to the parts of your code that were initially hard to test. The other class is for testing purposes, which behaves however you determine. This can make unit testing your code much easier.
+
+An example of this would be in a class that makes calls to System.Console.Write() and System.Console.Read().  Instead of using the class System.Console, we will construct an interface IConsole and implement two classes that inherit from it. One class for production that extends our IConsole.Read() and IConsole.Write() calls to System.Console and another class for testing where we can specify the desired inputs and outputs for the testing scenario.

@@ -1,0 +1,12 @@
+Check for Null/Not Null with is null and is { }
+by Mark Michaelis
+Determine Which Mechanism Is Most Effective to Check for Null
+It turns out there are numerous ways to check for null or not null, which begs the question, which should you use?
+
+Not surprisingly, it depends.
+
+Null/Not Null Mechanisms Table
+Here’s a table describing the various mechanisms to check for null and their advantages and disadvantages.
+
+Check For	Code Checks For Null	Description
+Is Null	if(variable is null) return true;	smiley face emoji This syntax supports static analysis such that later code will know whether variable is null or not.

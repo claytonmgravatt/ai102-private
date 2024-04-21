@@ -1,0 +1,34 @@
+How-To: Finding Columns and Tables in an Oracle SQL Database When Schema Undefined
+One of the great things about working at IntelliTect is we have the opportunity to get a lot of “cross-pollination” in ideas – even ideas concerning the Oracle SQL database.
+
+Recently, I was with my coworker, Chris Finlayson, and we were looking at some stuff for one of our clients. I was lamenting how I was struggling to find a data point in an off-the-shelf application’s database (DB) for a different client earlier that morning. Chris mentioned that he knew of a way to search a SQL database’s metadata for column names. It took us a few seconds to realize he was thinking MS SQL while I was talking Oracle SQL, but outside of semantics difference, we discovered that both have the same capability.
+
+Fast forward a couple of Google searches, and we found the verbiage for searching for a column name in an Oracle SQL database:
+
+select *
+from all_tab_columns
+where column_name like '%{SomeColumnName}%';
+For curious minds, the MS SQL syntax is:
+
+select *
+ from information_schema.columns
+ where column_name like ‘%{SomeColumnName}%’;
+Additional Filters within the Oracle SQL Database
+You can narrow down your search if you filter by the schema owner. For example, if I needed to find the location of where an account number is stored in a customer information system, I might write something like:
+
+select *
+ from all_tab_columns
+ where column_name like '%ACCOUNT%'
+ and owner = ‘CUSTOMER’;
+Working with Acronyms
+If the nomenclature of the DB prefers acronyms, you may need to search for column names more like “ACCT” or “ACC” or something similar. The idea is to be as specific as you can be by narrowing the result set to just the tables and columns that are likely to be the ones you want to find.
+
+Time Saved
+First, the downside: this will not always help because sometimes things are named too opaquely, or needed data you need just isn’t stored in a table. In those cases, you may still need to rely on a subject matter expert or another method for finding the needed data.
+
+However, when I’ve understood the data structure, I’ve saved hours of time and untold days blocked. Where I once spent upwards of an hour of manually scrolling through a table for each instance I needed to find something new, I now usually only take five to fifteen minutes to run this query.
+
+On top of saving time, I often didn’t have to rely on someone else getting back to me with answers when they have their own demands on their time.
+
+Want More Tips and Tricks?
+What other tips and tricks do you have for staying productive when dealing with hard-to-discover data? Let me know in the comments.

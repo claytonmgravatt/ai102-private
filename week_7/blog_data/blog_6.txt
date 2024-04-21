@@ -1,0 +1,47 @@
+How To Display the Build Date of a .NET Application
+by Benjamin Michaelis
+Displaying Your Build Date
+Recently, I was working on EssentialCSharp.com, and I wanted to display the build date on the website. This addition allows C# developers to see the version of the site that was live and helps visitors know the site is monitored and current.
+
+I recalled a previous IntelliTect blog post on displaying the build date on your web pages, and I knew IntelliTect had a NuGet package with the solution. However, upon installation, I realized the date returned was random between the 1900s and 2020. After searching, I realized that this previous approach has been deprecated for a few years, so I looked for a new solution. After some discussion and help from Microsoft MVP Kevin Bost, I began utilizing assembly attributes.
+
+Creating a Build Date that Won’t Go Extinct
+The journey from retrieving the build date to making it part of a NuGet package had some growing pains. Leveraging our property within MSBuild was preferable so that we didn’t have to compete with changes happening within MSBuild externally; this allowed for more longevity with our solution.
+
+Creating the Attribute
+To create this property, we began by creating the attribute. First, we created a class and methods to utilize our assembly attributes to parse the DateTime string that comes from the MSBuild step. We also wanted to ensure that the correct DateTimeKind is returned so that conversions to other time zones could easily be made without having to do something strange like adding a kind to the DateTime.
+
+We expected the runtime to call our constructor when the attribute from our generated code was retrieved, likely in the GetReleaseDate() method. While theoretically, a user could create their own usage of the assembly attribute with code like var attribute = new ReleaseDate("date-here"), we assumed that the utcDateString parameter would come from our generated code.
+
+The DateTimeStyles parameter in ParseExact() (or Parse()) is essential because, otherwise, .NET will try to be too helpful and automatically convert the DateTime string to the local time zone, which in our case, we do not want to do. Instead, we only want to do that conversion wherever we use the build date if a conversion is needed.
+
+/// <summary>
+/// The release date assembly attribute.
+/// </summary>
+[AttributeUsage(AttributeTargets.Assembly)]
+public class ReleaseDateAttribute : Attribute
+{
+    /// <summary> 
+    /// Constructor that takes in a DateTime string
+    /// </summary>
+    /// <param name="utcDateString"> A DateTime 'O' (round-trip date/time) format string </param>
+    public ReleaseDateAttribute(string utcDateString)
+    {
+        ReleaseDate = DateTime.ParseExact(utcDateString, "O", CultureInfo.InvariantCulture, DateTimeStyles.RoundtripKind);
+    }
+    /// <summary>
+    /// The date the assembly was built
+    /// </summary>
+    public DateTime ReleaseDate { get; }
+    /// <summary>
+    /// Method to obtain the release date from the assembly attribute
+    /// </summary>
+    /// <param name="assembly">An assembly instance</param>
+    /// <returns>The date time from the assembly attribute</returns>
+    public static DateTime? GetReleaseDate(Assembly? assembly = null)
+    {
+        object[]? attribute = (assembly ?? Assembly.GetEntryAssembly())?.GetCustomAttributes(typeof(ReleaseDateAttribute), false);
+        return attribute?.Length >= 1 ? ((ReleaseDateAttribute)attribute[0]).ReleaseDate : null;
+    }
+}
+Code language: C# (cs)

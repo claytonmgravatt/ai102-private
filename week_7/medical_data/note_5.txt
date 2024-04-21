@@ -1,0 +1,1 @@
+Patient describes experiencing chest pains during exercise. ECG performed, results suggest mild arrhythmia. Advised to start taking aspirin daily.
