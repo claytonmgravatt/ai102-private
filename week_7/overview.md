@@ -91,3 +91,6 @@ Which of the following accurately describes the deciding factors for when to cho
 - b. Choose Custom Text Classification when categorizing whole documents or phrases into predefined categories, and Custom NER when the goal is to extract specific entities like names, dates, or locations from text.
 - c. Opt for Custom Text Classification if you require real-time processing and scalability, while Custom NER should be used for batch processing of large datasets.
 - d. Select Custom NER when the text data is unstructured and diverse, and Custom Text Classification when the data is homogeneous and structured.
+
+
+## Project idea: Medical notes extractor.

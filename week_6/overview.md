@@ -34,7 +34,7 @@
         - Prebuilt - Builtin list, things like numbers
         - Regex - Pattern based, regular expressions (think emails)
 
-### Model Evaluation
+### Model Evaluation - _We'll do more with this next week..._
 - Accuracy - Correct / Total
     - misleading in imbalanced samples
 - Precision
@@ -97,3 +97,5 @@ result = client.analyze_conversation(
 - b. "LanguageDetection"
 - c. "Understanding"
 - d. "ConversationSummary"
+
+## Project idea: Bank assistant.

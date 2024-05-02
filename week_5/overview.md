@@ -27,7 +27,7 @@
     - FAQs - Can create from URL
     - Unstructured Text
     - "Chit Chat" - built in conversational pleasantries
-
+### _Discuss: Does Chit Chat help or hinder?_
 
 * Multi-language support
     - Project per language
@@ -41,6 +41,7 @@
 * Alternate Questions / Synonyms
 
 * Filterable metadata tags
+    - filter answer to be relevant to specific region, for example
 
 * Exportable/Importable to Excel/TSV
 
@@ -56,6 +57,7 @@
 * Less flexible
     * Only really for static information
     * Limited to what it can parse + what's manually entered
+### _Discuss: What is RAG, why ever use this instead?_
 
 ## Example Questions
 
@@ -80,3 +82,5 @@ Question: You are tasked with improving the accuracy of a Custom Question Answer
 - b. Incorporating more documents containing these technical terms into the knowledge base.
 - c. Switching to a different Azure cognitive service that handles technical queries.
 - d. Manually programming responses for queries containing these terms.
+
+## Project idea: Helpful QnA bot on product page.

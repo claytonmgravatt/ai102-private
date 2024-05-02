@@ -63,3 +63,5 @@ You are using sentiment analysis to categorize product reviews. Based on the sen
 {'positive': 0.04, 'neutral': 0.25, 'negative': 0.71}
 ```
 
+
+## Project idea: Message board opinion mining.

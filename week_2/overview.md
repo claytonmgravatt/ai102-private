@@ -33,12 +33,19 @@
 
 ### Vocabulary
 
-- AI/ML
+
+- **AI** : Computers performing tasks that historically required "human" intelligence
+- **Machine Learning** : Computers inferring patterns from data, rather than explicit learning
+### _Discuss: When can machine learning work? Where doesn't it work?_ 
+
 - Model training / Inferencing
+    - Training: Model learning from patterns
+    - Inferencing: Model using what it's learned to make predictions
 
 ### Ethical Considerations
 
-- Implicit Bias (amazon)
+- Implicit Bias 
+### _Discuss: Amazon resuming screening._
 - Self-fulfilling prophecies (policing/education)
 - Accuracy vs fairness (99% vs 95%)
 
@@ -77,7 +84,7 @@ Most services have images available.
 docker run --rm -it -p 5000:5000 --memory 12g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language:latest Eula=accept Billing=<yourEndpoint> ApiKey=<yourKey>
 ```
 
-Required: 
+Required arguments: 
 ```
 Eula=accept
 Billing=<yourEndpoint>
@@ -143,3 +150,6 @@ Which two responsible AI principles provide guidance to meet the monitoring requ
 - C. inclusiveness
 - D. reliability and safety
 - E. privacy and security
+
+
+## Project idea: Picture blog with automated tagging.

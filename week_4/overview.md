@@ -76,8 +76,8 @@ The cool, new and improved one.
 * Severity Levels (0-7)
 
 * Other stuff too
-    - Prompt shield
-    - Groundedness detection
+    - Prompt shield : Protection from prompt injection
+    - Groundedness detection : Protection(ish) from hallucinations
 
 ### Demo time, part 3!
 
@@ -110,3 +110,4 @@ Your company uses fancy made up words like API, Monads, and Nullability, which a
 - C. Train a seperate custom speech model, transcribe the videos, and upload a transcript. 
 - D. Give up.
 
+## Project idea: Slick video indexing website.

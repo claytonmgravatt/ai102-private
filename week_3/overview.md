@@ -48,7 +48,7 @@ image_analysis = image_analysis_client.analyze(
    - Probably not on the exam
 
  * High risk
-
+### _Discuss: How can facial detection be misused?_
 * Wall of Text
    - Face detection - for each detected face, the results include an ID that identifies the face and the bounding box coordinates indicating its location in the image.
    - Face attribute analysis - you can return a wide range of facial attributes, including:
@@ -75,6 +75,7 @@ image_analysis = image_analysis_client.analyze(
  - *Object Detection* - A specific object in a specific location in the image.
     - Apple at coordinates x,y
 
+#TODO: Exact steps
 ---
 
 ## Example Questions
@@ -101,3 +102,5 @@ You need to determine when cats are on the counter within an image. You should u
 
 A. True  
 B. False
+
+## Project idea: Cat monitoring system.
