@@ -3,8 +3,8 @@
 - **Course Number:** AI 102
 - **Course Time and Location:** 
     - Time: Thursdays 11am to 1pm, PST
-    - Duration: May 2nd 2024 - July 18th 2024
-    - Location: Online and onsite-TBD
+    - Duration: May 2nd 2024 - July 25th 2024
+    - Location: Online / Battle of Wits
 
 
 
