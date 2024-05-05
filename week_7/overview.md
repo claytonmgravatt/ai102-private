@@ -59,9 +59,6 @@ Language
 
 * Can be labeled in Language studio or by providing standardized JSON
 
-
-#Example, health care records? Extracting fields from notes, maybe classifying?
-
 ## Example questions
 
 ### 1. Herd health.
