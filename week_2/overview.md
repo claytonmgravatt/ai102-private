@@ -35,7 +35,9 @@
 
 
 - **AI** : Computers performing tasks that historically required "human" intelligence
-- **Machine Learning** : Computers inferring patterns from data, rather than explicit learning
+    - Ex. Dog vs Cat pictures
+- **Machine Learning** : Computers inferring patterns from data, rather than explicit instructions
+    - Input -> Math Function -> Output
 ### _Discuss: When can machine learning work? Where doesn't it work?_ 
 
 - Model training / Inferencing
@@ -70,6 +72,7 @@
 
 - The usual. 
 - IP / RBAC / Entra ID 
+- Two Keys
 
 ### Monitoring
 
@@ -90,6 +93,7 @@ Eula=accept
 Billing=<yourEndpoint>
 ApiKey=<yourKey>
 ```
+### _Discuss: Why would you elect to containerize a service that's already so easily hosted for you?_
 
 # Create computer vision solutions with Azure AI vision
 
