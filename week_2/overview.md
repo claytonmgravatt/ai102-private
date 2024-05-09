@@ -67,6 +67,9 @@
 ### Creation and Consumption - Demo time!
 
 - Push create button. Call consume API.
+- Single vs multi resource.
+    - [Multi-service resource](https://learn.microsoft.com/en-us/azure/ai-services/multi-service-resource?tabs=windows&pivots=azportal#supported-services-with-a-multi-service-resource)
+### _Discuss: Benefits of each approach?_
 
 ### Security
 
@@ -78,6 +81,7 @@
 
 - Metrics / Alerts
 - Diagnostic logging
+- Cost Analysis
 
 ### Containerization !important
 
