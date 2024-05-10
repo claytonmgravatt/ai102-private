@@ -43,6 +43,8 @@ image_analysis = image_analysis_client.analyze(
   - Operates asynchronously, requiring an operation ID for result retrieval.
   - Examples: receipts, articles, invoices.
 
+### I lied to you (kinda)! demo time!
+
 ## Face
  * Limited Access Policy 
    - Probably not on the exam
@@ -65,17 +67,32 @@ image_analysis = image_analysis_client.analyze(
    - Facial recognition - you can train a model with a collection of faces belonging to specific individuals, and use the model to identify those people in new images.
    - Facial liveness - liveness can be used to determine if the input video is a real stream or a fake to prevent bad intentioned individuals from spoofing the recognition system.
 
+   [Demo link](https://portal.vision.cognitive.azure.com/demo/face-detection)
+
 ## Custom Vision 
 
 ### Vocabulary
  - *Image Classification* - Image belongs to a class (or classes)..
-    - This picture is of a cat.
-    - This picture is of a [dog, animal]
+    - Single label: This picture is of a cat.
+    - Multiple labels: This picture is of a [dog, animal, mammal]
     
  - *Object Detection* - A specific object in a specific location in the image.
     - Apple at coordinates x,y
 
-#TODO: Exact steps
+Custom Model training steps:
+1. Create an `Azure Machine Learning` resource
+2. In its `Storage Account` (or another), add a container for your custom images.
+3. Upload images to that container.
+4. In `Vision Studio`, add a new dataset connected to that container.
+5. From that dataset, Create Azure ML Data Labelling Project. Go to project.
+6. Add label categories.
+7. Press Start and then Label data.
+7. After labeling, go back to Vision studio and import COCO file. (Alternatively, you could export file from AzureML and import file directly.)
+8. Still in `Vision Studio`, go to Custom models > Train a new model
+9. Select the associated training dataset, press train model.
+10. Wait forever (~45 minutes for 12 pictures).
+11. Evaluate your life while waiting.
+12. Evaluate model metrics.
 ---
 
 ## Example Questions
