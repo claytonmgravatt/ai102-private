@@ -1,6 +1,6 @@
 | Week | Date         | Learning Path                                                                                                                                                                               | Modules                         |
 |------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| 6    | June 6, 2024 | [Develop Natural Language Processing Solutions with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/)                                | Module 3                        |
+| 6    | June 13, 2024 | [Develop Natural Language Processing Solutions with Azure AI Services](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/)                                | Module 3                        |
 
 ## Study Guide Sections Covered
 
